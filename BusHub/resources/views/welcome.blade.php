@@ -47,6 +47,38 @@
         text-align: center;
         margin-bottom: 10px;
       }
+     
+
+
+.footerBottom{
+    background-color: #f8ebd7;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: rgb(0, 0, 0);
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+  }
 
     </style>
   </head>
@@ -169,6 +201,11 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="footerBottom">
+          <p>Copyright &copy;2024; Designed by <span class="designer">Dixon/JianJin/WenJun</span></p>
+      </div>
+  </footer>
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
